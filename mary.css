@@ -1,0 +1,175 @@
+body{
+background-image: url(background.JPG);
+background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box1{
+    background: transparent;
+    color: brown;
+}
+img{
+     /* padding: 10px; */
+height: 50px;
+width: 50px;
+margin-left: 0px; 
+}
+.TNT{
+    width: 1100px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 15px rgba(0, 0, 0 .2);
+    color: brown;
+    margin-top: 0px;
+    border-style: none;
+    padding: 30px 40px;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.3);;
+
+}
+.home{
+    text-align: center;
+    width: 50px;
+    height: 15px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 700px;
+    position: absolute;
+    font-weight: bold;
+    color: brown;
+    
+} 
+.home:hover{
+    border-color: brown;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2) brown;
+    font-weight: bolder;
+    color: rgb(176, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}   
+.about{
+    text-align: center;
+    width: 60px;
+    height: 15px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 800px;
+    position: absolute;
+    font-weight: bold;
+    color: brown;
+    
+}
+.about:hover{
+    border-color: brown;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2) brown;
+    font-weight: bolder;
+    color: rgb(176, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.title{
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    width: 500px;
+    margin-left: 150px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    color: brown;
+}
+.contact{
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    color: brown;
+    margin-left: 900px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: brown;
+}
+.contact:hover{
+    border-color: brown;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2) brown;
+    font-weight: bolder;
+    color: rgb(176, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.login{
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    color: brown;
+    margin-left: 1050px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: brown;
+}
+.login:hover{
+    border-color: brown;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2) brown;
+    font-weight: bolder;
+    color: rgb(176, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.forms{
+    position: absolute;
+    margin-top: 180px;
+    width: 700px;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0 .2);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 250px;
+    
+}
+.Name{
+ color: white;
+}
+.Email{
+
+}
+.Contact{
+
+}
+input{
+    width: 600px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: solid brown;
+}
+input:hover{
+    color: brown;
+    background-color: transparent;
+    border-color: rgb(255, 73, 104);
+}
+button{
+    background-color: transparent;
+    box-shadow: 2px 2px 4px brown;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    color: brown;
+    font-weight: bold ;
+    margin-bottom: 20px;
+} 
+footer{
+    position: absolute;
+    margin-top: 500px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 200px;
+    
+}
